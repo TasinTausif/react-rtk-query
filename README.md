@@ -1,18 +1,45 @@
-# React + Vite
+# React + RTK Query Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React application that demonstrates how to use **Redux Toolkit + RTK Query** to fetch and manage data from an API.  
+This repo shows how to define an API slice, perform queries & mutations, and render results in React components.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Using: **https://jsonplaceholder.typicode.com/** as the REST API.
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- ✅ Data fetching with RTK Query hooks (`useGetPostsQuery`, `useCreatePostsMutation`)  
+- ✅ Query (GET) + Mutation (POST) operations  
+- ✅ Simple form to create new data  
+- ✅ State & error handling (loading state, error state)  
+- ✅ Clean structure — API slice separated from UI components  
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (functional components + hooks)  
+- Redux Toolkit + RTK Query for API state & caching :contentReference[oaicite:2]{index=2}  
+- JavaScript (ES6+)  
+- Tailwind CSS
+
+---
+
+---
+
+## ▶️ Running the Project Locally
+
+    ```bash
+    # 1. Install dependencies
+    npm install
+
+    # 2. Run the development server
+    npm run dev
+
+    # 3. Open the app
+    # Usually at http://localhost:3000
+
+
+
+
