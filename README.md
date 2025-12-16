@@ -17,6 +17,13 @@ Using: **https://jsonplaceholder.typicode.com/** as the REST API.
 
 ---
 
+## 📸 Screenshots
+
+### API data fetching and posting
+<img src="./screenshots/gettingTruePostingFalse.png" alt="Post adding and posting" />
+
+---
+
 ## 🛠️ Tech Stack
 
 - React (functional components + hooks)  
